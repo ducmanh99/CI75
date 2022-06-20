@@ -6,15 +6,15 @@ function App() {
 	return (
 		<>
 			<div>
-				<Button type="saving" />
-				<Button type="cancel" />
-				<Button type="renting" />
-				<Button type="buy" />
-				<Button type="set auction" />
+				<Button name="delete" />
+				<Button name="cancel" />
+				<Button name="renting" />
+				<Button name="buy" />
+				<Button name="set auction" />
 			</div>
 			<div>
 				<Title title="hello" />
-				<Title title="chao nha" />
+				<Title title="chao canh" age="18" />
 				<Title title="bạn ăn cơm chưa" />
 				<Title title="hey do" />
 				<Title title="what sub" />
