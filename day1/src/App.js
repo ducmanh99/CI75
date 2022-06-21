@@ -2,7 +2,6 @@ import "./App.css";
 import Button from "./components/Button";
 import Title from "./components/Title";
 import Section from "./components/Section/Section";
-
 function App() {
 	return (
 		<>
@@ -24,6 +23,7 @@ function App() {
 				<Section
 					title="tieu de 1"
 					text="Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. "
+					img="https://img.nhandan.com.vn/Files/Images/2020/07/26/nhat_cay-1595747664059.jpg"
 				/>
 			</div>
 		</>
