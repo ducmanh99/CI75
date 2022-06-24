@@ -1,0 +1,19 @@
+.container{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    display: none;
+}
+.square{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+.circle{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
