@@ -2,7 +2,7 @@
     width: 40px;
     height: 40px;
     border: 1px solid black;
-    display: none;
+    
 }
 .square{
     display: block;
@@ -16,4 +16,10 @@
     height: 40px;
     border: 1px solid black;
     border-radius: 50%;
+}
+.hidden{
+    display: none; 
+}
+.show{
+    display: block;
 }

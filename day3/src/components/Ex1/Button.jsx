@@ -5,17 +5,19 @@ import "./index.css"
 const arr = [1, 2, 3, 4, 5, 6]
 
 const Button = () => {
-  const [shape, setShape] = useState(arr)
+  const [hidden, setHidden] = useState(false)
   
   const handleClick = () =>{
-    setShape(shape.filter(num => num % 2 == 0))
+    setHidden(!hidden)
   }
-  console.log(shape);
+  console.log(hidden);
   return (
    <>
+    <div className={`${hidden == true ? 'hidden' : 'show'}`}>
     {arr.map((item, index) =>(
-      <div key = {index} className={`container ${index === shape ? 'square' : 'circle'}` }></div>
+      <div key = {index} className={` ${item % 2 == 0 ? 'square' : 'circle'}` }></div>
     ))}
+    </div>
    <button onClick={handleClick}>Click</button>
    </>
   )
