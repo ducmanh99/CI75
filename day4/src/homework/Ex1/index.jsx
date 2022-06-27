@@ -11,7 +11,7 @@ const Ex1 = () => {
         setName("")
     }
     const handleDelete = () =>{
-
+      
     }
   return (
     <>
