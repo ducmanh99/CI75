@@ -10,8 +10,8 @@ const Ex1 = () => {
         text.push(name)
         setName("")
     }
-    const handleDelete = () =>{
-      
+    const handleDelete = (e) =>{
+      setText(text.filter((value, index) => index != e.target.value))
     }
   return (
     <>
@@ -22,8 +22,11 @@ const Ex1 = () => {
         <button type='submit'>Enter</button>
     </form>
     {text.map((value, index) =>(
-      <div key={index}>{value}
-          <button onClick={handleDelete}>X</button></div>
+
+        <div key={index}>
+        <input type="checkbox" />
+        {value}
+          <button onClick={handleDelete} value= {index}>X</button></div>
     ))}
 
     </>
